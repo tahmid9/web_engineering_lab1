@@ -1,0 +1,173 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header section */
+.header-container {
+    display: flex;
+    justify-content: center;
+    background-color: #4CAF50;
+    padding: 20px 0;
+    border-radius: 1px; /* Adding rounded corners to the header */
+}
+
+header {
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Navigation section */
+.nav-container {
+    background-color: #333;
+    padding: 10px 0;
+    border-radius: 1px; /* Adding rounded corners to the navigation */
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Content container */
+.content-container {
+    width: 80%; /* Matching the width of the contact container */
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 30px;
+}
+
+/* Container styling */
+.container {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid
+;
+}
+.home{
+     text-align: center;
+    width: 100%; /* Reduced the width to make the table more compact */
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+/* About section */
+.about {
+    text-align: center;
+    width: 100%; /* Reduced the width to make the table more compact */
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+/* Services section */
+.services {
+    text-align: center;
+}
+
+/* Pricing section */
+.pricing table {
+    width: 100%; /* Reduced the width to make the table more compact */
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.pricing table th, .pricing table td {
+    padding: 8px; /* Reduced padding to make the table more compact */
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.pricing table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pricing table td {
+    background-color: #f9f9f9;
+}
+
+/* Contact section */
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width:100%;
+}
+
+/* Form styling */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    margin-top: 50px;
+}
